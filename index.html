@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de curriculo</title>
+</head>
+<body>
+         <h1>DADOS PESSOAIS</h1>
+         <hr>
+        <form action="dados.php" method="post">
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" >
+
+            <br><br>
+
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+
+
+            <br><br>
+
+            <select name="civil" id="">
+                <option  value="">ESTADO CIVIL</option>
+                <option value="masculino">SOLTEIRO</option>
+                <option value="feminino">CASADO</option>
+                <option value="feminino">VIUVO</option>
+                <option value="feminino">AMAZIADO</option>
+            </select>
+
+            <br><br>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco">
+            
+            <br><br>
+
+            <label for="cep">CEP:</label>
+            <input type="number" name="cep">
+            <hr>
+
+            <select name="uf" id="">
+                <option value="">UF</option>
+                <option value="MG">MG</option>
+                <option value="BH">BH</option>
+                <option value="MT">MT</option>
+                <option value="PR">PR</option>
+                <option value="SP">SP</option>
+                <option value="GO">GO</option>
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+                <option value="AM">AM</option>
+                <option value="PR">PR</option>
+                <option value="RJ">RJ</option>
+                <option value="PE">PE</option>
+                <option value="CE">CE</option>
+                <option value="ES">ES</option>
+                <option value="RN">RN</option>
+                <option value="MA">MA</option>
+                <option value="PI">PI</option>
+                <option value="PA">PA</option>
+                <option value="MS">MS</option>
+                <option value="SE">SE</option>
+                <option value="AL">AL</option>
+                <option value="TO">TO</option>
+                <option value="AC">AC</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="AP">AP</option>
+                
+            </select>
+
+            <br><br>
+            <h1>OBJETIVO PROFISSIONAL</h1>
+            
+            <label for="objetivo">OBJETIVO</label>
+            <textarea name="objetivo" cols="45" rows="5"></textarea>
+
+            <h1>FORMAÇÃO ESCOLAR</h1>
+
+            <br><br>
+            <label for="formacao">FORMAÇÃO</label>
+            <input type="text" name="instituicao">
+
+            <label for="curso">curso</label>
+            <input type="text" name="curso">
+
+            <label for="data">conclusão</label>
+            <input type="date" name="data">
+
+            
+            <br><br>
+            
+            <h1>EXPERIÊNCIA PROFISSIONAL</h1>
+
+            <label for="experiencia">EMPRESA</label>
+            <input type="text" name="empresa">
+
+
+            <br><br>
+
+            <label for="cargo">cargo</label>
+            <input type="text" name="cargo">
+
+            <br><br>
+
+            <label for="datainicio">data de inicio</label>
+            <input type="date" name="datainicio">
+
+            <br><br>
+
+            <label for="datafim">data de termino</label>
+            <input type="date" name="datafim">
+
+
+
+            
+
+
+            <input type="submit" value="ENVIAR">
+        </form>
+</body>
+</html>
